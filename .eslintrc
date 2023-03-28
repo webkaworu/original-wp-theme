@@ -1,0 +1,42 @@
+{
+  "extends": [
+		"eslint:recommended"
+	],
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"globals": {
+		"require": false,
+		"process": false,
+		"Echo": false,
+		"$": false,
+		"jQuery": false,
+		"DATA": false,
+		"STORE": false,
+		"wp": false
+	},
+	"parserOptions": {
+		"parser": "babel-eslint",
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+  "rules": {
+		"semi": ["error", "always"],
+		"semi-spacing": "error",
+		"semi-style": ["error", "last"],
+		"no-extra-semi": "error",
+		"quotes": [2, "single"],
+		"comma-dangle": ["error", "never"],
+		"key-spacing": ["error", { "align": "colon" }],
+		"keyword-spacing": "error",
+		"object-curly-spacing": ["error", "always"],
+		"space-unary-ops": "error",
+		"indent": ["error", "tab", {
+			"ignoredNodes": [
+				"TemplateLiteral"
+			]
+		}],
+		"template-curly-spacing": [ "off" ]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"plugins": [
+		"stylelint-scss"
+	],
+	"extends": [
+		"stylelint-config-recommended-scss",
+		"stylelint-config-standard",
+		"stylelint-config-recess-order"
+	],
+	"rules": {
+		"indentation": 4,
+		"no-descending-specificity": null,
+		"at-rule-no-unknown": null,
+		"scss/at-rule-no-unknown": true,
+		"selector-class-pattern": null,
+		"selector-id-pattern": null,
+		"declaration-block-no-redundant-longhand-properties": null,
+		"keyframes-name-pattern": null,
+		"value-list-comma-newline-after": "never-multi-line",
+		"max-line-length": null,
+		"function-no-unknown": [
+			true,
+			{
+				"ignoreFunctions": [
+					"/^map\\..+/",
+					"/^color\\..+/"
+				]
+			}
+		],
+		"no-invalid-position-at-import-rule": [
+			true,
+			{
+				"ignoreAtRules": [
+					"use"
+				]
+			}
+		]
+	}
+}
