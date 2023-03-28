@@ -1,0 +1,51 @@
+{
+  "name": "laravelmix-template",
+  "version": "1.0.0",
+  "description": "Laravelmix Frontend Template",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "echo \"Error: no clean specified\" && exit 1",
+    "build": "gulp",
+    "start": "gulp start",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "lint": "eslint --fix --ext .js,.vue js & stylelint --fix ./sass/**/*.scss"
+  },
+  "author": "WebRabbit",
+  "license": "ISC",
+  "repository": {},
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "babel-eslint": "^10.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "import-glob-loader": "^1.1.0",
+    "laravel-mix": "^6.0.43",
+    "laravel-mix-polyfill": "^3.0.1",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.12",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "stylelint": "^14.7.1",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-recommended-scss": "^6.0.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.22.2",
+    "simple-lightbox": "^2.1.0",
+    "swiper": "^8.1.5"
+  }
+}

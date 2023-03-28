@@ -1,0 +1,283 @@
+.comments_area {
+    .comments_title:not(.comment_reply_title) {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.87rem;
+        font-size: 1.75rem;
+        font-weight: 400;
+
+        &::before {
+            display: inline-block;
+            width: 1rem;
+            height: 1px;
+            margin-right: 0.82rem;
+            content: "";
+            background-color: $base;
+        }
+    }
+
+    .comment_reply_title {
+        margin-bottom: 1.87rem;
+        font-family: $en-sans;
+        font-size: 2.14rem;
+        font-weight: 400;
+
+        small.sub_title {
+            margin-left: 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #aaa;
+        }
+
+        small:not(.sub_title) {
+            display: block;
+            margin-top: 20px;
+        }
+
+        #cancel-comment-reply-link {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.42rem 1.25rem;
+            font-size: 10px;
+            font-weight: bold;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            background-color: $secondary;
+            border-radius: 0.25rem;
+
+            &::before {
+                margin-right: 5px;
+                font-family: "Font Awesome 6 Free", sans-serif;
+                font-size: 14px;
+                font-weight: 900;
+                line-height: 1;
+                content: "\f00d";
+            }
+        }
+    }
+
+    a {
+        color: $base;
+        text-decoration: none;
+    }
+
+    .comment_list {
+        padding-left: 0;
+        list-style: none;
+        border-top: solid 1px #ddd;
+
+        .reply {
+            font-size: 0.87em;
+            text-align: right;
+        }
+
+        .comment-reply-link {
+            font-weight: bold;
+
+            &::before {
+                margin-right: 5px;
+                font-family: "Font Awesome 6 Free", sans-serif;
+                font-weight: 900;
+                line-height: 1;
+                content: "\f3e5";
+            }
+        }
+
+        li {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-bottom: solid 1px #ddd;
+        }
+
+        .children {
+            position: relative;
+            margin-top: 10px;
+            list-style: none;
+            border-top: solid 1px #ddd;
+
+            &::before {
+                position: absolute;
+                top: 20px;
+                left: 5px;
+                display: block;
+                width: 20px;
+                height: 20px;
+                content: "";
+                border-bottom: solid 1px #ddd;
+                border-left: solid 1px #ddd;
+            }
+
+            >li:nth-last-of-type(1) {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .comment-body {
+        font-size: 0.87em;
+    }
+
+    .comment-author {
+        display: flex;
+
+        .avatar {
+            margin-right: 5px;
+        }
+    }
+
+    .comment-metadata {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        >* + * {
+            margin-left: 10px;
+        }
+
+        time {
+            font-family: $en-sans;
+            font-weight: bold;
+            line-height: 1;
+            color: #aaa;
+            white-space: nowrap;
+        }
+    }
+
+    .comment-edit-link {
+        font-size: 0.87em;
+        font-weight: bold;
+
+        &::before {
+            margin-right: 5px;
+            font-family: "Font Awesome 6 Free", sans-serif;
+            font-weight: 900;
+            line-height: 1;
+            content: "\f304";
+        }
+    }
+
+    .comment-content {
+        line-height: $line-height-sm;
+
+        a {
+            color: $link-color;
+            text-decoration: $link-decoration;
+
+            &:hover {
+                color: $link-hover-color;
+                text-decoration: $link-hover-decoration;
+            }
+        }
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        .page-numbers {
+            padding: 0.5rem;
+            margin-right: 10px;
+            line-height: 1;
+            color: $body-color;
+            white-space: nowrap;
+            background-color: #fff;
+            border: 1px solid #aaa;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                color: $base;
+            }
+
+            &.current {
+                color: #fff;
+                background-color: $base;
+                border-color: $base;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .comment-respond {
+        margin-top: 30px;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 60px;
+        }
+    }
+
+    .comment-form {
+        font-size: 0.875rem;
+        line-height: $line-height-sm;
+
+        > p[class*="comment-"] {
+            margin-bottom: 1.87rem;
+        }
+
+        label {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        textarea,
+        input[type="text"],
+        input[type="email"],
+        input[type="url"], {
+            display: block;
+            width: 100%;
+        }
+
+        input[type="text"] {
+            max-width: 460px;
+        }
+
+        input[type="email"],
+        input[type="url"] {
+            max-width: 740px;
+        }
+
+        .required {
+            color: $secondary;
+        }
+
+        .comment-form-cookies-consent {
+            display: flex;
+            align-items: center;
+
+            [type="checkbox"] {
+                margin-right: 0.85rem;
+            }
+
+            label {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .form-submit {
+        margin-bottom: 0;
+        text-align: center;
+
+        .submit {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin-right: auto;
+            margin-left: auto;
+
+            @include media-breakpoint-up(md) {
+                max-width: 360px;
+            }
+        }
+    }
+}

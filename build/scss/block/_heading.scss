@@ -1,0 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: $line-height-sm;
+
+    &.has-background {
+        padding: 0.75em 1em;
+    }
+
+    &.is-style-line {
+        @include line_title();
+    }
+
+    &.is-style-band {
+        @include band_title();
+    }
+
+    &.is-style-border {
+        @include border_title();
+    }
+}

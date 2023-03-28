@@ -1,0 +1,122 @@
+@use "sass:color";
+
+@import "variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "mixins";
+@import "block/*";
+
+body {
+    margin: 0;
+    font-family: $font-family-sans-serif;
+    font-size: 1rem;
+    line-height: $line-height-base;
+    color: $body-color;
+    background-color: #fff;
+    text-size-adjust: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+img.alignleft {
+    margin: 0 auto 0 0;
+}
+
+img.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+img.alignright {
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+    max-width: 100%;
+    height: auto;
+}
+
+table:not(.wp-calendar-table) {
+    line-height: $line-height-sm;
+
+    th,
+    td {
+        padding: 1.25rem 1.5rem;
+
+        @include media-breakpoint-up(md) {
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    tr > *:first-child {
+        white-space: nowrap;
+        vertical-align: top;
+    }
+}
+
+blockquote {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 15px 10px calc(30px + 1.5em);
+    margin: 1em 40px;
+    color: color.adjust($body-color, $lightness: 15%);
+    background: #f8f9fa;
+    border-left: 4px solid #ddd;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 14%);
+
+    &::before {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        display: inline-block;
+        font-family: "Font Awesome 6 Free", sans-serif;
+        font-size: 1.5em;
+        font-weight: 900;
+        line-height: 1;
+        color: #ddd;
+        content: "\f10d";
+    }
+
+    p:nth-last-of-type(1) {
+        margin-bottom: 0;
+    }
+
+    cite {
+        display: block;
+        font-size: 0.9em;
+        color: #999;
+    }
+
+    footer {
+        position: relative;
+        font-size: 0.9em;
+        font-style: normal;
+        color: currentcolor;
+    }
+}
+
+.has-text-color time {
+    color: inherit;
+}
+
+ul,
+ol {
+    line-height: $line-height-lg;
+}
+
+figcaption {
+    @include font-size($figure-caption-font-size);
+
+    color: $figure-caption-color;
+}

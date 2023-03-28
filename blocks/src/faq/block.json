@@ -1,0 +1,23 @@
+{
+  "apiVersion": 2,
+  "name": "theme-origin/faq",
+	"title": "FAQ",
+  "category": "theme-origin",
+	"description": "よくある質問と回答。",
+	"keywords": [ "よくある", "質問", "FAQ", "faq" ],
+
+  "attributes": {
+    "question": {
+      "type": "string",
+      "default": ""
+    },
+    "questionLabel": {
+      "type": "string",
+      "default": "Q"
+    },
+    "answerLabel": {
+      "type": "string",
+      "default": "A"
+    }
+  }
+}

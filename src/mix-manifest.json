@@ -1,0 +1,15 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/admin.js": "/js/admin.js",
+    "/css/style.css": "/css/style.css",
+    "/css/block-editor.css": "/css/block-editor.css",
+    "/css/admin.css": "/css/admin.css",
+    "/fonts/fa-brands-400.ttf": "/fonts/fa-brands-400.ttf",
+    "/fonts/fa-brands-400.woff2": "/fonts/fa-brands-400.woff2",
+    "/fonts/fa-regular-400.ttf": "/fonts/fa-regular-400.ttf",
+    "/fonts/fa-regular-400.woff2": "/fonts/fa-regular-400.woff2",
+    "/fonts/fa-solid-900.ttf": "/fonts/fa-solid-900.ttf",
+    "/fonts/fa-solid-900.woff2": "/fonts/fa-solid-900.woff2",
+    "/fonts/fa-v4compatibility.ttf": "/fonts/fa-v4compatibility.ttf",
+    "/fonts/fa-v4compatibility.woff2": "/fonts/fa-v4compatibility.woff2"
+}

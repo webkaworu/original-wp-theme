@@ -1,0 +1,39 @@
+<!-- wp:table {"className":"is-style-flash"} -->
+<figure class="wp-block-table is-style-flash">
+  <table>
+    <tbody>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">会社名</mark></td>
+        <td>テスト</td>
+      </tr>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">住所</mark></td>
+        <td>〒541-5410 大阪府大阪市中央区北浜</td>
+      </tr>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">代表者名</mark></td>
+        <td>テスト</td>
+      </tr>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">電話番号</mark></td>
+        <td>090-9999-9999</td>
+      </tr>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">FAX</mark></td>
+        <td>090-9999-9999</td>
+      </tr>
+      <tr>
+        <td class="has-text-align-center" data-align="center"><mark style="background-color:rgba(0, 0, 0, 0);color:#aaaaaa" class="has-inline-color">サービス</mark></td>
+        <td>エステティック＆リラクゼーション</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<!-- /wp:table -->
+<!-- wp:theme-origin/google-map {"iframe":"<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.085515678762!2d139.7427220155971!3d35.674896287926074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b89b2e1b089%3A0x48c7d4fa5e528690!2z5Zu95Lya6K2w5LqL5aCC!5e0!3m2!1sja!2sjp!4v1656068030874!5m2!1sja!2sjp' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>","previewable":true} -->
+<div class="wp-block-theme-origin-google-map">
+  <div class="ggmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.085515678762!2d139.7427220155971!3d35.674896287926074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b89b2e1b089%3A0x48c7d4fa5e528690!2z5Zu95Lya6K2w5LqL5aCC!5e0!3m2!1sja!2sjp!4v1656068030874!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+<!-- /wp:theme-origin/google-map -->

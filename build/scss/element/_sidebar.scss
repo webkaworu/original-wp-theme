@@ -1,0 +1,97 @@
+main.sidebar {
+    @include media-breakpoint-up(md) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        >.main_title_box {
+            width: 100%;
+        }
+
+        >section {
+            flex: 0 0 auto;
+            width: calc(100% - 240px);
+            max-width: 970px;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        >aside {
+            flex: 0 0 auto;
+            width: 240px;
+            margin-left: 0;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        >section {
+            width: calc(100% - 280px);
+        }
+
+        >aside {
+            width: 270px;
+            margin-left: 10px;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        >section {
+            width: calc(100% - 300px);
+        }
+
+        >aside {
+            margin-left: 30px;
+        }
+    }
+
+    &.sidebar_left {
+        @include media-breakpoint-up(md) {
+            >.main_title_box {
+                order: 1;
+            }
+
+            >section {
+                order: 3;
+            }
+
+            >aside {
+                order: 2;
+                margin-right: 0;
+                margin-left: 0;
+            }
+        }
+
+        @include media-breakpoint-up(lg) {
+            >aside {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+        }
+
+        @include media-breakpoint-up(xl) {
+            >aside {
+                margin-right: 30px;
+                margin-left: 0;
+            }
+        }
+    }
+
+    >aside {
+        padding: $section-padding-top $container-padding-x $section-padding-bottom;
+        font-size: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            padding: $section-lg-padding-top $container-padding-x $section-lg-padding-bottom;
+        }
+
+        .widget h2 {
+            font-size: 1.42rem;
+        }
+
+        .widget + .widget {
+            @include media-breakpoint-up(md) {
+                margin-top: 50px;
+            }
+        }
+    }
+}

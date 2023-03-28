@@ -1,0 +1,160 @@
+.wp-block-theme-origin-faq {
+    margin-bottom: 20px !important;
+
+    + .wp-block-theme-origin-faq {
+        margin-top: 20px !important;
+    }
+
+    .faq_card {
+        background-color: transparent;
+        border: 0;
+        border-radius: 0;
+    }
+
+    .card-header {
+        display: block;
+        padding: 0 !important;
+        margin-bottom: 0 !important;
+        font-size: 1.14rem !important;
+        font-weight: bold;
+        background-color: #fafafa;
+        border: 0 !important;
+
+        &::before {
+            content: none;
+        }
+
+        .card-link {
+            display: flex;
+            align-items: center;
+            padding: 1rem 0 1rem 1.28rem;
+            line-height: 1;
+            color: inherit;
+            text-decoration: none;
+
+            &::before {
+                color: $base;
+                content: "Q";
+            }
+
+            .title {
+                margin-right: 5px;
+            }
+
+            .icon {
+                position: relative;
+                display: block;
+                flex: 0 1 70px;
+                align-self: stretch;
+                width: 100%;
+                min-width: 30px;
+                max-width: 8%;
+                margin: -1rem 0 -1rem auto;
+                background-color: $base;
+
+                &::before,
+                &::after {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 65%;
+                    max-width: 24px;
+                    height: 1px;
+                    content: "";
+                    background-color: #fff;
+                }
+
+                &::before {
+                    transition: all 0.5s linear;
+                    transform: translate(-50%, -50%);
+                }
+
+                &::after {
+                    transition: all 0.5s ease 0.5s;
+                    transform: translate(-50%, -50%) rotate(90deg);
+                }
+            }
+
+            &.active {
+                .icon::before {
+                    width: 0;
+                }
+
+                .icon::after {
+                    content: "";
+                    transform: translate(-50%, -50%) rotate(720deg);
+                }
+            }
+        }
+    }
+
+    .card-link,
+    .card-body {
+        &::before {
+            align-self: flex-start;
+            margin-right: 0.75rem;
+            font-family: $sans-serif;
+            font-size: 2.14rem;
+            font-weight: bold;
+            line-height: 1;
+
+            @include media-breakpoint-up(sm) {
+                margin-right: 1.42rem;
+            }
+        }
+    }
+
+    .card-body {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.28rem;
+
+        &::before {
+            color: $warning;
+            content: "A";
+        }
+    }
+
+    // for admin
+    .faq-question {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.28rem;
+        font-size: 1.14rem !important;
+        font-weight: bold;
+        background-color: #fafafa;
+    }
+
+    .faq-question-label,
+    .faq-answer-label {
+        align-self: flex-start;
+        margin-right: 1.42rem;
+        font-size: 2.14rem;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .faq-question-label {
+        color: $base;
+    }
+
+    .faq-answer-label {
+        color: $warning;
+    }
+
+    .faq-question-content {
+        line-height: $line-height-sm;
+    }
+
+    .faq-answer {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.28rem;
+        margin-left: 0;
+    }
+
+    .faq-answer-content p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}

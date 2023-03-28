@@ -1,0 +1,124 @@
+@mixin container_long() {
+    max-width: 1920px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    @media (min-width: 1320px) {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@mixin hover-under($bgcolor) {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 1px;
+        content: "";
+        background-color: $bgcolor;
+        transition: transform 0.25s linear;
+        transform: scale(0, 1);
+        transform-origin: right top;
+    }
+
+    &:not(.active):hover::after {
+        transform: scale(1, 1);
+        transform-origin: left top;
+    }
+}
+
+@mixin bg_shadow_title() {
+    padding: 10px 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #fff;
+    background-color: $lbase;
+    box-shadow: 5px 5px 0 $base;
+
+    @include media-breakpoint-up(lg) {
+        padding: 15px;
+    }
+}
+
+@mixin line_title() {
+    padding: 20px 5px;
+    font-weight: bold;
+    border-top: solid 2px $base;
+    border-bottom: solid 2px $base;
+}
+
+@mixin bg_title() {
+    padding: 10px 15px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #fff;
+    // text-align: center;
+    background-color: $lbase;
+    border-radius: 10px;
+}
+
+@mixin band_title() {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    line-height: 1.2;
+    border-bottom: solid 2px #ddd;
+
+    &::before {
+        position: static;
+        display: inline-block;
+        width: 4px;
+        height: 1em;
+        margin-right: 10px;
+        content: "";
+        background-color: $secondary;
+    }
+
+    &::after {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: -2px;
+        left: 0;
+        display: block;
+        width: 160px;
+        max-width: 40%;
+        height: 2px;
+        content: "";
+        background-color: $base;
+
+        @include media-breakpoint-up(md) {
+            width: 240px;
+        }
+    }
+}
+
+@mixin border_title() {
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid $base;
+}
+
+@mixin list-group-flush() {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    border-top: $list-group-border-width solid $list-group-border-color;
+    border-radius: 0;
+
+    li {
+        position: relative;
+        display: block;
+        padding: $list-group-item-padding-y $list-group-item-padding-x;
+        color: $list-group-color;
+        background-color: $list-group-bg;
+        border-bottom: $list-group-border-width solid $list-group-border-color;
+    }
+}

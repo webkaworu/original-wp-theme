@@ -1,0 +1,103 @@
+$fa-font-path: "../fonts/";
+
+$serif : "游明朝", "Yu Mincho", "游明朝体", yumincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+$sans-serif: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", yugothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+$en: "Lato", sans-serif;
+$en-sans: "Lato", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", yugothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+$font-family-sans-serif: $sans-serif;
+
+$base : var(--wrt-site-color);
+$dbase: var(--wrt-site-dcolor);
+$lbase: var(--wrt-site-lcolor);
+
+$primary: #548e7f;
+$secondary: #b6ad85;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #ddd;
+$dark: #111;
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
+
+$line-height-base: 2.14;
+$line-height-md: 1.5;
+$line-height-sm: 1.25;
+
+$container-max-widths: (
+    sm: 1270px
+);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 2,
+    5: $spacer * 3,
+);
+
+$grid-gutter-width: 30px;
+
+$enable-smooth-scroll: false;
+
+$body-color: #333;
+
+$border-color: #eee;
+
+$link-color: #00f;
+$link-hover-color: #00f;
+$link-decoration: underline;
+$link-hover-decoration: none;
+
+$nav-link-color:$body-color;
+$nav-link-hover-color: $base;
+$nav-link-transition:none;
+
+$list-group-border-color: #eee;
+$list-group-item-padding-y: 15px;
+$list-group-item-padding-x: 0;
+$list-group-color: $body-color;
+
+$input-border-color: #ddd;
+$input-padding-y: 0.57rem;
+// $input-padding-x: 1.4rem;
+$input-font-size: 16px;
+$input-line-height:1.25;
+$input-focus-border-color: #ddd;
+$input-focus-box-shadow: none;
+
+$table-striped-bg: #fafafa;
+$table-cell-padding-y: 1.8rem;
+$table-cell-padding-x: 1.25rem;
+
+$pagination-color: $body-color;
+$pagination-border-color: #ddd;
+$pagination-hover-color: $base;
+$pagination-hover-bg: #fafafa;
+$pagination-hover-border-color: $base;
+
+$btn-padding-y: 1.45rem;
+$btn-padding-x: 1.5rem;
+$btn-line-height: $line-height-sm;
+$btn-border-radius: 0;
+$btn-font-weight: 400;
+
+$badge-padding-y: 0.57rem;
+$badge-padding-x: 1.42rem;
+
+$section-padding-top: 45px;
+$section-padding-bottom: 45px;
+$section-lg-padding-top: 90px;
+$section-lg-padding-bottom: 90px;

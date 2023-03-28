@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "theme-origin/google-map",
+	"title": "Google Map",
+	"category": "theme-origin",
+	"description": "グーグルマップを埋め込みます。",
+	"keywords": [ "グーグル", "マップ", "google", "map" ],
+	"textdomain": "default",
+	"attributes": {
+		"iframe": {
+			"type": "string"
+		},
+		"previewable": {
+			"type"   : "boolean",
+			"default": false
+		},
+		"align": {
+			"default": "center"
+		}
+	},
+	"supports": {
+		"align": [ "wide", "full" ]
+	}
+}

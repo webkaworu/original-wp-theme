@@ -1,0 +1,19 @@
+<table class="contact_table">
+  <tr>
+    <th>名前<span class="require">※</span></th>
+    <td>[text* your-name class:form-control akismet:author]</td>
+  </tr>
+  <tr>
+    <th>メールアドレス<span class="require">※</span></th>
+    <td>[email* your-email class:form-control akismet:author_email]</td>
+  </tr>
+  <tr>
+    <th>TEL<span class="require">※</span></th>
+    <td>[tel* your-tel class:form-control]</td>
+  </tr>
+  <tr>
+    <th>お問い合わせ内容<span class="require">※</span></th>
+    <td>[textarea* your-message class:form-control]</td>
+  </tr>
+</table>
+[submit class:btn class:btn-base class:submit_btn "送信"]

@@ -1,0 +1,35 @@
+$colors: (
+    "black": #000,
+    "dark-gray": #999,
+    "gray": #ddd,
+    "light-gray": #fafafa,
+    "white": #fff,
+    "green": #548e7f,
+    "red": #ef6f6c,
+    "purple": #6761a8,
+    "orange": #f49f0a,
+);
+
+@each $name, $color in $colors {
+
+    .has-#{$name}-color {
+        color: $color !important;
+    }
+
+    .has-#{$name}-background-color {
+        background-color: $color !important;
+
+        &.wp-block-button__link {
+            border-color: $color !important;
+
+            &:hover {
+                background-color: color.adjust($color, $lightness: -8%) !important;
+                border-color: color.adjust($color, $lightness: -8%) !important;
+            }
+        }
+    }
+
+    .has-#{$name}-border-color {
+        border-color: $color !important;
+    }
+}

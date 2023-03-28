@@ -1,0 +1,30 @@
+.breadcrumb-list {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fafafa;
+
+    .container {
+        max-width: 1750px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .breadcrumb {
+        margin-bottom: 0;
+    }
+
+    .breadcrumb-item {
+        padding-left: 1em;
+
+        + .breadcrumb-item {
+            padding-left: 1em;
+
+            &::before {
+                float: left;
+                padding-right: 1em;
+                color: #6c757d;
+                content: ">";
+            }
+        }
+    }
+}

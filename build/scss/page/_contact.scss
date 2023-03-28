@@ -1,0 +1,85 @@
+.page_default_section .wpcf7 {
+    margin-top: 30px;
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 50px;
+    }
+
+    .wpcf7-form {
+        table.contact_table {
+            display: block;
+            width: 100%;
+            margin-bottom: 30px;
+            border: 0;
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: 50px;
+            }
+
+            >thead,
+            >tbody,
+            >tfoot {
+                display: block;
+                width: 100%;
+                border: 0;
+
+                >tr,
+                >tr > th,
+                >tr > td {
+                    display: block;
+                    width: 100%;
+                    border: 0;
+                }
+            }
+
+            th,
+            td {
+                padding: 0;
+            }
+
+            th {
+                margin-bottom: 5px;
+                font-size: 0.875rem;
+                font-weight: 400;
+            }
+
+            td {
+                margin-bottom: 25px;
+            }
+        }
+
+        textarea,
+        input[type="text"],
+        input[type="email"],
+        input[type="url"], {
+            display: block;
+            width: 100%;
+        }
+
+        input[type="text"] {
+            max-width: 460px;
+        }
+
+        input[type="email"],
+        input[type="url"] {
+            max-width: 740px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            max-width: 200px;
+            margin-right: auto;
+            margin-left: auto;
+
+            @include media-breakpoint-up(md) {
+                max-width: 360px;
+            }
+        }
+
+        .wpcf7-spinner {
+            display: block;
+            margin: 10px auto;
+        }
+    }
+}

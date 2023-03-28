@@ -1,0 +1,153 @@
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
+
+<!-- wp:theme-origin/faq {"question":"質問がここにはいります。"} -->
+<div class="wp-block-theme-origin-faq faq-wrap blank-box block-box">
+  <div class="card faq_card">
+    <h2 class="card-header">
+      <a class="card-link" href="#">
+        <span class="title">質問がここにはいります。</span>
+        <span class="icon"></span>
+      </a>
+    </h2>
+    <div class="collapse">
+      <div class="card-body">
+        <div class="answer_text">
+          <!-- wp:paragraph -->
+          <p>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。<br>答えがここに入ります。答えがここに入ります。答えがここに入ります。答えがここに入ります。</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:theme-origin/faq -->
